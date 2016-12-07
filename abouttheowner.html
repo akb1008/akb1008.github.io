@@ -3,7 +3,7 @@
 <head>
   <title>Homemade Jewelry</title>
   <!-- Link to w3.css external style sheet -->
-  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="w3.css">
   <!-- Link to font awesome icons style sheet -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="index.html">
@@ -13,6 +13,7 @@
       font-family: tahoma, sans-serif;
       text-align: center;
       margin: 40px;
+      margin-left: 0;
     }
     h1 {
       text-align: center;
@@ -26,12 +27,12 @@
         transform: translate(0, 0);
         color: blue;
       }
-  
+
       50% {
         transform: translate(40px, 0);
         color:red;
       }
-  
+
       80% {
         transform: translate(-80px, 0);
         color:pink;
@@ -41,7 +42,7 @@
 </head>
 <body>
   <!-- Navbar -->
-       <div class="w3-top">
+  <!-- <div class="w3-top">
     <ul class="w3-navbar w3-aqua w3-card-2">
       <li><a href="index.html" class="w3-hover-none w3-hover-text-darkviolet w3-padding-large">HOME</a></li>
       <li class="w3-dropdown-hover">
@@ -61,64 +62,94 @@
         </div>
       </li>
       <li><a href="resources.html" class="w3-hover-none w3-hover-text-darkviolet w3-padding-large">RESOURCES</a></li>
-    
+    </ul>
+  </div> -->
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <ul class="w3-navbar w3-aqua w3-card-2">
+      <li><a href="index.html" class="w3-hover-none w3-hover-text-darkviolet w3-padding-large">HOME</a></li>
+      <li class="w3-dropdown-hover">
+        <a href="abouttheowner.html" class="w3-padding-large">ABOUT THE OWNER</a>
+        <div class="w3-dropdown-content w3-white w3-card-4">
+          <a href="contact.html">CONTACT</a>
+        </div>
+      </li>
+      
+      <li class="w3-dropdown-hover">
+        <a href="theprocess.html" class="w3-padding-large">THE PROCESS</a>
+        <div class="w3-dropdown-content w3-white w3-card-4">
+          <a href="necklaces.html">Necklaces</a>
+          <a href="bracelets.html">Bracelets</a>
+          <a href="rings.html">Earrings/Rings</a>
+        </div>
+      </li>
+      <li><a href="resources.html" class="w3-hover-none w3-hover-text-darkviolet w3-padding-large">RESOURCES</a></li>
+
+
+      <!-- <li><a href="#theprocess" class="w3-padding-large">THE PROCESS</a></li> -->
+
+  
     
     </ul>
   </div>
-   <h1>Jewlery Making is fun!</h1>
+
+
+
+  <h1>Jewlery Making is fun!</h1>
   <div class="w3-container w3-margin w3-padding-large w3-xlarge">
-        <table class="w3-table-all w3-hoverable"> 
-            <tr class="w3-blue">
-                <th>Jewelry Piece</th>
-                <th>Main Materials Used</th>
-                <th>Money Spent</th>
-            </tr>
+    <table class="w3-table-all w3-hoverable"> 
+      <tr class="w3-blue">
+        <th>Jewelry Piece</th>
+        <th>Main Materials Used</th>
+        <th>Money Spent</th>
+      </tr>
 
-            <tr>
-                <td>Blue Safety Pin Necklace</td>
-                <td>Blue beads, chain, small/large safety pins</td>
-                <td>$6</td>
-            </tr>
+      <tr>
+        <td>Blue Safety Pin Necklace</td>
+        <td>Blue beads, chain, small/large safety pins</td>
+        <td>$6</td>
+      </tr>
 
-            <tr>
-                <td>Butterfly Necklace</td>
-                <td>Butterfly charm, gems, gold chain, jewelry glue</td>
-                <td>$8</td>
-            </tr>
+      <tr>
+        <td>Butterfly Necklace</td>
+        <td>Butterfly charm, gems, gold chain, jewelry glue</td>
+        <td>$8</td>
+      </tr>
 
-            <tr>
-                <td>Heart Ring</td>
-                <td>Wire</td>
-                <td>$2</td>
-            </tr>
+      <tr>
+        <td>Heart Ring</td>
+        <td>Wire</td>
+        <td>$2</td>
+      </tr>
 
-            <tr>
-                <td>Heart Bracelet</td>
-                <td>Safety pins, small colorful beads, ribbon</td>
-                <td>$5</td>
-            </tr>
+      <tr>
+        <td>Heart Bracelet</td>
+        <td>Safety pins, small colorful beads, ribbon</td>
+        <td>$5</td>
+      </tr>
 
-            <tr>
-                <td>Ring Bracelet</td>
-                <td>Wire, chain, ring, clasps, pliers</td>
-                <td>$5</td>
-            </tr>
+      <tr>
+        <td>Ring Bracelet</td>
+        <td>Wire, chain, ring, clasps, pliers</td>
+        <td>$5</td>
+      </tr>
 
-            <tr>
-                <td>Mint Necklace</td>
-                <td>Mint colored beads, small/large safety pins, chain</td>
-                <td>$6</td>
-            </tr>
+      <tr>
+        <td>Mint Necklace</td>
+        <td>Mint colored beads, small/large safety pins, chain</td>
+        <td>$6</td>
+      </tr>
 
-            <tr>
-                <td>Purple Earrings</td>
-                <td>Purple jems, earring clasps, pliers</td>
-                <td>$5</td>
-            </tr>
+      <tr>
+        <td>Purple Earrings</td>
+        <td>Purple jems, earring clasps, pliers</td>
+        <td>$5</td>
+      </tr>
 
-        </table>
-        <p class="w3-justify w3-text-blue w3-center"> (Above is just a preview of the amount of money roughly spent to make each project) My name is Alexis Boulanger and I am the owner of all the jewelry seen throughout this site. Jewelry making has always been something I enjoy doing in my free time ever since my senior year of highschool. Some fun facts about me are that I was born in Virginia Beach, VA, I'm a sophomore Biology major, I have 3 siblings, my favorite color is light blue, and I love mac n' cheese. :) </p>
+    </table>
+    <p class="w3-justify w3-text-blue w3-center"> (Above is just a preview of the amount of money roughly spent to make each project) My name is Alexis Boulanger and I am the owner of all the jewelry seen throughout this site. Jewelry making has always been something I enjoy doing in my free time ever since my senior year of highschool. Some fun facts about me are that I was born in Virginia Beach, VA, I'm a sophomore Biology major, I have 3 siblings, my favorite color is light blue, and I love mac n' cheese. :) </p>
 
-    </div>
-    </body>
-    </html>
+  </div>
+</body>
+</html>
